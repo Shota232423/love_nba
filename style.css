@@ -1,0 +1,57 @@
+html{
+    font-size: 100%;
+}
+* {
+    margin: 0;
+  }  
+/*-------------header---------------------*/
+.header{
+    margin-top:1%;
+}
+.header p{
+    color:white;
+    background-color: black;
+    text-align:center;
+}
+.header h1{
+    margin-left:2%;
+}
+
+/*-------------------main---------------------*/
+.home{
+    background-color:black;
+
+
+    text-align:center;
+
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-image: url(images/basketgoal.jpg);
+    min-height:50vh;
+}
+
+/*------------sub1--------------*/
+.sub1 h2{
+    margin-top:3%;
+    text-align:center;
+}
+.item{
+    padding:3%;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+/*-------------------footer----------------*/
+footer{
+    background-color:black;
+    text-align:center;
+    padding:26px 0;
+}
+footer p{
+    color: #fff;
+    font-size:0.875rem;
+}
